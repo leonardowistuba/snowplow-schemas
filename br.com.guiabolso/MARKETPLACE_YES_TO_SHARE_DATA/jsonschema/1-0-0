@@ -1,0 +1,32 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.guiabolso",
+    "name": "CLICKED_CARD",
+    "version": "1-0-0",
+    "format": "jsonschema"
+  },
+  "type": "object",
+  "properties" : {
+    "provider" : {
+      "type" : "string"
+    },
+    "offer_id" : {
+      "type" : "string"
+    },
+    "page" : {
+      "type" : "string"
+    },
+    "installments" : {
+      "type" : "integer"
+    },
+    "order" : {
+      "type" : "integer"
+    },
+    "value" : {
+      "type" : "integer"
+    }
+  },
+  "required": ["offer_id"],
+  "additionalProperties": false
+}
