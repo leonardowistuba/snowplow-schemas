@@ -2,18 +2,18 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.guiabolso",
-    "name": "MARKETPLACE_NO_TO_SHARE_DATA",
+    "name": "MARKETPLACE_INTERACTED_WITH_INSTALLMENTS_SLIDER",
     "version": "1-0-0",
     "format": "jsonschema"
   },
   "type": "object",
   "properties": {
-    "partner": {
-      "type": "string"
+    "value": {
+      "type": "number"
     }
   },
   "required": [
-    "partner"
+    "value"
   ],
   "additionalProperties": false
 }
